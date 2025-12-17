@@ -10,7 +10,3 @@ struct Car: Identifiable, Codable, Hashable {
     let fuelType: String
     let imageURL: String
 }
-
-struct CarsResponse: Codable {
-    let cars: [Car]
-}
